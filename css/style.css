@@ -1,0 +1,263 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrap{
+	width: 1002px;
+	margin: 0 auto;
+	background-color: #f6f6f6;
+}
+.title ul{
+	display: flex;
+	justify-content: end;
+	padding: 10px;
+}
+
+.title li a{
+	padding-right: 10px;
+	text-decoration: none;
+	font-weight: bold;
+}
+.title .item1{
+	color: #4460a0;
+}
+.title .item2{
+	color: #00aaec;
+}
+.title2{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #fff;
+}
+.title2 .pic{
+	display: block;
+	width: 224px;
+	height: 50px;
+	background: url(https://i.imgur.com/Tf9qYA7.png) no-repeat ;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.title2>ul{
+	display: flex;
+    margin-bottom: 3px;
+}
+.title2>ul>li>a{
+	padding: 15px;;
+	text-decoration: none;
+	color: #00cd99;
+}
+.header-list ul{
+    display: none;
+    position: absolute;
+    background-color: #000;
+    background-color:rgba(0,0,0,0.6);
+    top:88px;
+    z-index: 100;
+}
+.header-list ul>li>a{
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    text-align: center;
+    padding: 10px 21px;
+    border-bottom: 2px solid #000;
+    color: yellowgreen;
+}
+.title2 .page{
+	border-bottom: 3px solid #00cd99;
+}
+.title2 li a:hover{
+	background-color: #F5F5F5;
+	border-bottom: 3px solid #00cd99;
+}
+.content .content-pic{
+	width: 1002px;
+	height: 246px;
+	background: url(https://i.imgur.com/3cPM3ID.png) no-repeat;
+	padding-top: 100px;
+}
+.content .content-pic1{
+	width: 1002px;
+	height: 246px;
+	background: url(https://i.imgur.com/qe7sfBH.jpg) no-repeat;
+    background-size: cover;
+	padding-top: 100px;
+}
+.content .content-pic2{
+	width: 1002px;
+	height: 246px;
+	background: url(https://i.imgur.com/Rf30vx9.jpg) no-repeat;
+    background-size: cover;
+	padding-top: 100px;
+}
+.swiper {
+    width: 1002px;
+    height: 346px;
+  }
+.content .content-pic p,.content-pic1 p,.content-pic2 p{
+	background-color:#000000;
+    background-color:rgba(0,0,0,0.2); 
+	font-size: 40px;
+	color: #fff;
+	font-weight: bold;
+	padding: 30px 0 30px 15px;
+}
+.course{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+.course .item{
+	background-color: #fff;
+	box-shadow: -1px 1px 3px gray;
+	text-align: center;
+	padding: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.course .item img{
+	width: 100%;
+}
+.course .item h2{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.course .item p{
+	text-align: left;
+}
+.difference{
+	margin-top: 50px;
+	width: 100%;
+	margin-bottom: 50px;
+}
+.difference h2{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.difference table{
+	margin: 0 auto;
+}
+.difference th{
+	font-weight: bold;
+}
+.difference th,td{
+	text-align: left;
+	border-top: 1px solid #D0D0D0;
+	border-bottom: 1px solid #D0D0D0;
+	padding: 5px 100px 5px 20px;
+	line-height: 1.3;
+}
+.spe{
+	color:#00cd99;
+}
+.user{
+	background:linear-gradient(#006f53,#009570);
+}
+.user h3{
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.user textarea{
+	margin: 15px;
+}
+.user form{
+	display: flex;
+}
+.user .form-content{
+	padding: 20px;
+}
+.user .form-content input{
+	padding-right: 300px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+.user .form-content .submit-button{
+	padding: 8px;
+	float: right;
+	margin-right: 40px;
+	background-color: #00cd99;
+	color: #fff;
+	border: none;
+	border-radius: 10%;
+}
+.user label{
+	color:#fff;
+	font-weight: bold;
+}
+.footer{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 20px 35px ;
+}
+.footer img{
+	width: 171px;
+	height: 36px;
+}
+.footer p{
+	padding: 5px;
+}
+.footer span{
+	color: red;
+	padding-left: 3px;
+}
+
+.scroll img{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
